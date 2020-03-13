@@ -98,7 +98,7 @@ body, html {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(120deg, rgba(#000, 1), rgba(#000, .5)), url('/images/c-virus.png') no-repeat;
+  background: linear-gradient(120deg, rgba(#000, 1), rgba(#000, .5)), url('/images/c-virus.jpg') no-repeat;
   background-size: cover;
   background-attachment: fixed;
   color: #fff;
