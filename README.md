@@ -2,7 +2,7 @@
 
 ## A UI for pulling in data from @mathdroid [Coronavirus API](https://github.com/mathdroid/covid-19-api)
 
-#### Speedily build using the Vue CLI
+#### Speedily built using the [Vue CLI](https://cli.vuejs.org/)
 
 
 ## Project setup
@@ -24,6 +24,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
