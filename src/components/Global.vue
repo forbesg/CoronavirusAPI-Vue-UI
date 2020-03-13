@@ -71,9 +71,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss" scoped>
-.global {
-
-}
-</style>

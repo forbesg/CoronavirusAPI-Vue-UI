@@ -79,7 +79,6 @@ export default {
   },
   methods: {
     handleSelectedCountry(index) {
-      console.log(this.sortedCountries[index]);
       this.$emit('setActiveCountry', this.sortedCountries[index])
     }
   }

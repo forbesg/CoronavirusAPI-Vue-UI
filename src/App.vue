@@ -70,7 +70,6 @@ export default {
   },
   methods: {
     handleSetActiveCountry(country) {
-      console.log('setActiveCountry', country);
       this.activeCountry = country
     }
   }
