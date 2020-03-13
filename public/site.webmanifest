@@ -1,0 +1,16 @@
+{
+    "name": "Covid-19 Update",
+    "short_name": "Covid-19 Update",
+    "icons": [
+        {
+            "src": "/android-chrome-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#b93332",
+    "background_color": "#b93332",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait"
+}
