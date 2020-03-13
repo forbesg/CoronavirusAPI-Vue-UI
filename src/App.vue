@@ -42,6 +42,7 @@ export default {
   watch: {
     activeCountryRegion () {
       this.navOpen = false
+      window.scrollTo(0, 0)
     }
   },
   computed: {
