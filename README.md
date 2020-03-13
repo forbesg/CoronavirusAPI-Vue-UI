@@ -1,4 +1,9 @@
-# coronavirus
+# Coronavirus Updates
+
+## A UI for pulling in data from @mathdroid [Coronavirus API](https://github.com/mathdroid/covid-19-api)
+
+#### Speedily build using the Vue CLI
+
 
 ## Project setup
 ```
