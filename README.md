@@ -4,6 +4,8 @@
 
 #### Speedily built using the [Vue CLI](https://cli.vuejs.org/)
 
+**DEMO** [hosted on Netlify](https://coronavirus-vue-ui.netlify.com/)
+
 
 ## Project setup
 ```
