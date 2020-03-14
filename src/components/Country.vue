@@ -16,15 +16,15 @@
         <h4>Deaths</h4>
         <span class="count">{{ new Intl.NumberFormat({ style: 'unit' }).format(activeCountry.deaths) }}</span>
       </div>
-    </div>
-    <div class="card">
-      <h4>Death Rate</h4>
-      <span class="count">{{ deathRate }}%</span>
-    </div>
-    <div class="card">
-      <h4>Last Updated</h4>
-      <span class="date">{{ (new Date(activeCountry.lastUpdate)).toLocaleDateString(undefined, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }) }}</span>
-    </div>
+      <div class="death-rate card">
+        <h4>Death Rate</h4>
+        <span class="count">{{ deathRate }}%</span>
+      </div>
+      <div class="updated card">
+        <h4>Last Updated</h4>
+        <span class="date">{{ (new Date(activeCountry.lastUpdate)).toLocaleDateString(undefined, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }) }}</span>
+      </div>
+    </div>    
     <footer>
       <button @click="$emit('setActiveCountry')">View Global Stats</button>
     </footer>

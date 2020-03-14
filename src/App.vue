@@ -14,7 +14,6 @@
       </aside>
       <section>
         <div class="sticky">
-          <h1>Coronavirus - COVID-19</h1>
           <Global v-if="!activeCountry" />
           <Country v-else :activeCountry="activeCountry"  @setActiveCountry="handleSetActiveCountry(null)"/>
         </div>
@@ -123,6 +122,7 @@ body, html {
       transition: transform .3s;
     }
     &.open {
+      background-color: var(--color-red);
       left: 300px;
       padding-right: 0;
       span {
@@ -151,7 +151,6 @@ body, html {
     height: auto;
     min-height: 100vh;
     padding: 0;
-
     aside {
       position: fixed;
       top: 0;
@@ -170,6 +169,7 @@ body, html {
     }
     .title {
       font-size: 2.6em;
+      margin-top: 0;
       text-align: center;
     }
     section {
@@ -177,6 +177,11 @@ body, html {
       .sticky {
         position: sticky;
         top: 40px;
+      }
+      .og-image {
+        img {
+          width: 100%;
+        }
       }
     }
     &.loading {
@@ -213,11 +218,27 @@ body, html {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     grid-gap: 20px;
+    margin-bottom: 30px;
     > .card {
       margin: 0;
     }
+    @media (min-width: 1024px) {
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      .card {
+        &.death-rate,
+        &.updated {
+          grid-column: 1 / -1;
+        }
+      }
+    }
     @media (min-width: 1366px) {
       grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      .card {
+        &.death-rate,
+        &.updated {
+          grid-column: 1 / -1;
+        }
+      }
     }
   }
   .card {

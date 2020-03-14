@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="global">
-    <h2 class="title">Global Figures</h2>
+    <h2 class="title">Covid-19 Global Figures</h2>
     <div class="card-container">
       <div class="confirmed card">
         <h4>Confirmed Cases</h4>
